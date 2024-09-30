@@ -1,0 +1,109 @@
+/* Global Styles for Project Pages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3; /* Light gray background */
+    color: #444; /* Darker text color */
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50; /* Darker shade for headings */
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color:#db3434
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db; /* Blue background */
+    color: #fff; /* White text */
+    padding: 30px 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles - Common */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #97ac5f31;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .content,
+section .journey {
+    flex: 1;
+    margin-left: 20px; /* Space between video and text */
+}
+
+section .drone-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Journey Section Video */
+#journey_section .journey-video {
+    width: 1000px;
+    height: 550px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px; /* Space between video and text */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 8px;
+}
